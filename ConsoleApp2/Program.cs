@@ -10,7 +10,7 @@ namespace ConsoleApp2
             Student student = new Student();
             student.StudentId = 1;
             student.StudentName = "Hexagon";
-            student.Question = "Can Nasa save IronMan?";
+            student.Question = "Can Elon Musk save IronMan?";
             Console.WriteLine($"Student {student.StudentName} has a question");
             Console.WriteLine(student.Question);
             Console.ReadLine();
